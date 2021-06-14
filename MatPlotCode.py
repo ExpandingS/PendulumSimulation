@@ -96,7 +96,6 @@ def create3d():
     timeA  = []
     for time in map(scale,range(1,70)):
         x1, y1 = simPend(0,time)
-        print(time)
         for i in range(70):
             timeA.append(time)
             dTh.append(i)
